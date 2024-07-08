@@ -73,7 +73,7 @@ namespace QuickSmelt
             tinBarRecipeConfig.Item = "Tin";
             tinBarRecipeConfig.Amount = 1;
             tinBarRecipeConfig.CraftingStation = CraftingStations.Forge;
-            copperBarRecipeConfig.MinStationLevel = 3;
+            tinBarRecipeConfig.MinStationLevel = 3;
             tinBarRecipeConfig.AddRequirement(new RequirementConfig("Coal", CoalPerBar.Value));
             tinBarRecipeConfig.AddRequirement(new RequirementConfig("TinOre", 1));
             ItemManager.Instance.AddRecipe(new CustomRecipe(tinBarRecipeConfig));
@@ -84,7 +84,7 @@ namespace QuickSmelt
             ironBarRecipe1Config.Item = "Iron";
             ironBarRecipe1Config.Amount = 1;
             ironBarRecipe1Config.CraftingStation = CraftingStations.Forge;
-            copperBarRecipeConfig.MinStationLevel = 4;
+            ironBarRecipe1Config.MinStationLevel = 4;
             ironBarRecipe1Config.AddRequirement(new RequirementConfig("Coal", CoalPerBar.Value));
             ironBarRecipe1Config.AddRequirement(new RequirementConfig("IronScrap", 1));
             ItemManager.Instance.AddRecipe(new CustomRecipe(ironBarRecipe1Config));
@@ -95,7 +95,7 @@ namespace QuickSmelt
             ironBarRecipe2Config.Item = "Iron";
             ironBarRecipe2Config.Amount = 1;
             ironBarRecipe2Config.CraftingStation = CraftingStations.Forge;
-            copperBarRecipeConfig.MinStationLevel = 4;
+            ironBarRecipe1Config.MinStationLevel = 4;
             ironBarRecipe2Config.AddRequirement(new RequirementConfig("Coal", CoalPerBar.Value));
             ironBarRecipe2Config.AddRequirement(new RequirementConfig("IronOre", 1));
             ItemManager.Instance.AddRecipe(new CustomRecipe(ironBarRecipe2Config));
@@ -106,7 +106,7 @@ namespace QuickSmelt
             silverBarRecipeConfig.Item = "Silver";
             silverBarRecipeConfig.Amount = 1;
             silverBarRecipeConfig.CraftingStation = CraftingStations.Forge;
-            copperBarRecipeConfig.MinStationLevel = 4;
+            silverBarRecipeConfig.MinStationLevel = 4;
             silverBarRecipeConfig.AddRequirement(new RequirementConfig("Coal", CoalPerBar.Value));
             silverBarRecipeConfig.AddRequirement(new RequirementConfig("SilverOre", 1));
             ItemManager.Instance.AddRecipe(new CustomRecipe(silverBarRecipeConfig));
@@ -117,7 +117,7 @@ namespace QuickSmelt
             blackMetalBarRecipeConfig.Item = "BlackMetal";
             blackMetalBarRecipeConfig.Amount = 1;
             blackMetalBarRecipeConfig.CraftingStation = CraftingStations.Forge;
-            copperBarRecipeConfig.MinStationLevel = 5;
+            blackMetalBarRecipeConfig.MinStationLevel = 5;
             blackMetalBarRecipeConfig.AddRequirement(new RequirementConfig("Coal", CoalPerBar.Value));
             blackMetalBarRecipeConfig.AddRequirement(new RequirementConfig("BlackMetalScrap", 1));
             ItemManager.Instance.AddRecipe(new CustomRecipe(blackMetalBarRecipeConfig));
@@ -128,7 +128,7 @@ namespace QuickSmelt
             flametalBarRecipeConfig.Item = "Flametal";
             flametalBarRecipeConfig.Amount = 1;
             flametalBarRecipeConfig.CraftingStation = CraftingStations.Forge;
-            copperBarRecipeConfig.MinStationLevel = 4;
+            flametalBarRecipeConfig.MinStationLevel = 4;
             flametalBarRecipeConfig.AddRequirement(new RequirementConfig("Coal", CoalPerBar.Value));
             flametalBarRecipeConfig.AddRequirement(new RequirementConfig("FlametalOre", 1));
             ItemManager.Instance.AddRecipe(new CustomRecipe(flametalBarRecipeConfig));

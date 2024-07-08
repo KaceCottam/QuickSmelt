@@ -1,14 +1,18 @@
-﻿# JotunnModStub
-Upon building for release, this README.md is copied into the `Package` folder for thunderstore packaging. Remember to also edit the manifest.json and supply your own mod icon.
+# QuickSmelt
 
-## Installation (manual)
-
+A valheim mod to add smelter recipes to the Forge.
 
 ## Features
 
+* Configurable number of coal required per bar (default is 5)
+* Adds 1:1 wood -> coal recipe
 
-## Changelog
-
-
-## Known issues
-You can find the github at:
+| Recipe | Station Level Required |
+| ------ | ---------------------- |
+| Coal | 2 |
+| Copper | 2 |
+| Tin | 3 |
+| Iron | 4 |
+| Silver | 4 | 
+| Flametal | 4 |
+| BlackMetal | 5 |
